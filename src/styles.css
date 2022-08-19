@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.2rem;
+    column-gap: 0.2rem;
+    padding: 0.3rem;
+    width: 40vw;
+    height: 85vh;
+    background-color: #ffffff;
+}
+
+.box {
+    border: 1px solid #000000;
+    border-radius: 0.5rem;
+}
